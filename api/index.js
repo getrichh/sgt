@@ -1,6 +1,7 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const Todo = require('./models/Todo');
+import express from 'express';
+import mongoose from 'mongoose';
+import Todo from './models/Todo.js';
+
 const app = express();
 
 app.use(express.json());
