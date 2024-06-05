@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import Todo from './models/Todo.js';
+import {Todo} from './models/Todo.js';
 
 const app = express();
 
